@@ -1,0 +1,33 @@
+[
+  {"name": "div", "props": {"description":"Test simple shape"}},
+{"name": "shapes_01_simple", "props": {"description":"Test simple shape"}},
+{"name": "shapes_02_simple_holes", "props": {"description":"Test simple shape with hole"}},
+{"name": "shapes_03_simple_filled_holes", "props": {"description":"Test simple shape with filled holes"}},
+{"name": "shapes_04_simple_colorFills", "props": {"description":"Test shapes with different colors"}},
+{"name": "shapes_05_simple_colorFills_no_spacing", "props": {"description":"Test shapes with different colors and no spacing between shapes"}},
+
+{"name": "shapes_06_simple_gradiants_linear", "props": {"description":"Test linear gradient fills"}},
+{"name": "shapes_07_simple_gradients_radial", "props": {"description":"Test radial gradient fills"}},
+{"name": "shapes_08_random_forms", "props": {"description":"Test random shapes"}},
+{"name": "shapes_09_strokes_thickness", "props": {"description":"Test stroke thickness"}},
+{"name": "shapes_10_strokes_capstyle", "props": {"description":"Test stroke capstyles"}},
+
+
+{"name": "timelines_01_position", "props": {"description":"Test simple position animation", "testFrames":10}},
+{"name": "timelines_02_colorTransforms", "props": {"description":"Test colortranforms (no animation)"}},
+{"name": "timelines_03_nested", "props": {"description":"Test simple nested timelines"}},
+{"name": "timelines_04_nested_graphic", "props": {"description":"Test simple graphic instance"}},
+{"name": "shapetween_01_positions", "props": {"description":"Test simple shapetween with animated positions"}},
+{"name": "shapetween_02_colors", "props": {"description":"Test simple shapetween with animated positions and color"}},
+{"name": "shapetween_03_strokes", "props": {"description":"Test simple shapetween with animated stroke thickness"}},
+{"name": "shapetween_04_gradients", "props": {"description":"Test simple shapetween with animated gradient"}},
+{"name": "shapetween_05_strokes_and_fills", "props": {"description":"Test simple shapetween with animated strokes and fills", "issues":["chaos in animated strokes"]}},
+{"name": "shapetween_06_curves", "props": {"description":"Test simple shapetween with animated curves"}},
+
+{"name": "bitmaps_01", "props": {"description":"Test embed bitmap", "issues":["Alpha does not interpolate correct on bitmap"]}},
+{"name": "fonts_01", "props": {"description":"Test embed font", "issues":["Issue with positioning", "Kerning not yet supported"]}},
+{"name": "buttons", "props": {"description":"Test embed font", "issues":["Issue with positioning", "Kerning not yet supported"]}},
+{"name": "component", "props": {"description":"Test embed font", "issues":["Issue with positioning", "Kerning not yet supported"]}},
+{"name": "label", "props": {"description":"Test embed font", "issues":["Issue with positioning", "Kerning not yet supported"]}},
+{"name": "input_text", "props": {"description":"Test embed font", "issues":["Issue with positioning", "Kerning not yet supported"]}}
+]

@@ -1,0 +1,24 @@
+[
+  {"name": "01_trace", "props": {"description":"Test trace string/number<br>check console for output"}},
+  {"name": "02_handle_undefined", "props": {"description":"Test access and trace undefined objects<br>check console for output"}},
+  {"name": "03_textfield", "props": {"description":"Testing updating textfield.text"}},
+  {"name": "04_loops", "props": {"description":"Test array and while and for loops"}},
+  {"name": "05_simple_math", "props": {"description":"Test basic math opperations"}},
+  {"name": "06_simple_math_2", "props": {"description":"Test more basic math"}},
+  {"name": "07_simple_function", "props": {"description":"Test simple function"}},
+  {"name": "08_function_with_params", "props": {"description":"Test calling function with a param, and a return value"}},
+  {"name": "09_function_multi_params", "props": {"description":"Test calling functions with multple params"}},
+  {"name": "10_object_props", "props": {"description":"Test updating DisplayObject on stage"}},
+  {"name": "11_keyListener", "props": {"description":"Test key events. <br>Use arrow-keys to move the blue rectangle<br>Make sure test-select-dropdowns are not focused"}},
+  {"name": "12_mouseDown", "props": {"description":"Test mouse events<br>Click on the grey rectangle"}},
+  {"name": "13_onEnter", "props": {"description":"Test onEnterFrame function"}},
+  {"name": "14_setInterval", "props": {"description":"Test setInterval function"}},
+  {"name": "15_objectcode", "props": {"description":"Test code assigned to a object<br>Click on the grey rectangle"}},
+  {"name": "16_movieClip_playbackcontrol", "props": {"description":"Test playback control for movieclip<br>Click on the spider"}},
+  {"name": "17_multiFrames", "props": {"description":"Test scripts on multiple frames "}},
+  {"name": "18_multiScenes", "props": {"description":"Test Scene navigation (nextScene()/PrevScene())"}},
+  {"name": "19_textfield_vars", "props": {"description":"Test textfield bound to a variable"}},
+  {"name": "20_graphicsAPI", "props": {"description":"Test textfield bound to a variable"}},
+  {"name": "21_dragging", "props": {"description":"Test textfield bound to a variable"}}
+
+]

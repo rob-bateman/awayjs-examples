@@ -1,0 +1,16 @@
+[
+{"name": "shapes_mw_MA_GBR_1025PAx0300", "props": {"description":"Test shapes from Mathswhizz lesson MA_GBR_1025PAx0300"}},
+{"name": "shapes_mw_MA_GBR_1375RAx0200", "props": {"description":"Test shapes from Mathswhizz lesson MA_GBR_1375RAx0200", "issues":["Some strokes on the hippo are to thin (aa issue ?)"]}},
+{"name": "shapes_mw_MA_GBR_1025BAx0100", "props": {"description":"Test shapes from Mathswhizz lesson MA_GBR_1025BAx0100", "issues":["When stage is too small, hairline-strokes inside wings of the fly are wrong. ok as long as stage is not small"]}},
+{"name": "shapes_mw_MA_GBR_1000AAx0200","props":  {"description":"Test shapes from Mathswhizz lesson MA_GBR_1000AAx0200"}},
+{"name": "shapes_mw_MA_GBR_0575RAx0200","props":  {"description":"Test shapes from Mathswhizz lesson MA_GBR_0575RAx0200", "issues":["Stroke-artefacts on the horse tail"]}},
+{"name": "shapes_mw_MA_GBR_0650NAx0400", "props": {"description":"Test shapes from Mathswhizz lesson MA_GBR_0650NAx0400", "issues":["Background-gradient of the jar does not look right"]}},
+{"name": "shapes_mw_MA_GBR_0650RAx0100", "props": {"description":"Test shapes from Mathswhizz lesson MA_GBR_0650RAx0100"}},
+{"name": "shapes_mw_MA_GBR_0675RAx0100", "props": {"description":"Test shapes from Mathswhizz lesson MA_GBR_0675RAx0100", "issues":["Left figure: Stroke-artefacts at the colorful spheres", "Gradients of the Spheres do not look right", "Clown: When exporting the top of the umbrella, the tesselation crashes."]}},
+{"name": "timeline_sound_1", "props": {"description":"Test timeline with sounds"}},
+{"name": "timeline_sound_2", "props": {"description":"Test timeline with sounds"}},
+{"name": "timeline_sound_3", "props": {"description":"Test timeline with sounds"}},
+{"name": "timeline_sound_4", "props": {"description":"Test timeline with sounds"}},
+{"name": "timeline_sound_5", "props": {"description":"Test timeline with sounds"}},
+{"name": "timeline_sound_spider", "props": {"description":"Test timeline with sounds"}}
+]
