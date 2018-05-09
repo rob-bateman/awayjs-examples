@@ -4,10 +4,10 @@ import { PerspectiveProjection, CoordinateSystem, Loader, LoaderEvent, URLReques
 import { LoaderContainer, DisplayObject, MovieClip } from "awayjs-full/lib/scene";
 import { AWDParser, SWFParser } from "awayjs-full/lib/parsers";
 import { AS2SceneGraphFactory } from "awayjs-full/lib/player";
-import {AVM1SceneGraphFactory, AVM1ContextImpl, LoaderInfo, } from "MathWhizzLessonManager";
-import { SecurityDomain } from "MathWhizzLessonManager";
-import { AVMAwayStage } from "MathWhizzLessonManager";
-import { AVM1Globals } from "MathWhizzLessonManager";
+import {AVM1SceneGraphFactory, AVM1ContextImpl, LoaderInfo, } from "lesson-manager";
+import { SecurityDomain } from "lesson-manager";
+import { AVMAwayStage } from "lesson-manager";
+import { AVM1Globals } from "lesson-manager";
 
 class Hello_SWF
 {
