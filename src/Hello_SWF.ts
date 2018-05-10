@@ -21,7 +21,7 @@ class Hello_SWF
     constructor()
     {
         // create the AwayStage for AVM1
-        this._stage = new AVMAwayStage(window.innerWidth / 2, window.innerHeight / 2, 0xFF0000, 24, null);
+        this._stage = new AVMAwayStage(window.innerWidth / 2, window.innerHeight / 2, 0x000000, 24, null);
         // create the AVM1Context and the AVM1Scenegraphfactory
 		this._avm1SceneGraphFactory = new AVM1SceneGraphFactory(new AVM1ContextImpl(new LoaderInfo()));
 		this._avm1SceneGraphFactory.avm1Context.sec = new SecurityDomain();
@@ -34,6 +34,11 @@ class Hello_SWF
         loader.addEventListener(LoaderEvent.LOAD_COMPLETE, (event:LoaderEvent) => this.onLoadComplete(event));
         loader.addEventListener(AssetEvent.ASSET_COMPLETE, (event:AssetEvent) => this.onAssetComplete(event));
         loader.load(new URLRequest("assets/basic_tests/shapes_01_simple.swf"), null, null, new SWFParser(this._avm1SceneGraphFactory));
+        //loader.load(new URLRequest("assets/basic_tests/shapes_02_simple_holes.swf"), null, null, new SWFParser(this._avm1SceneGraphFactory));
+        //loader.load(new URLRequest("assets/basic_tests/shapes_04_simple_colorFills.swf"), null, null, new SWFParser(this._avm1SceneGraphFactory));
+        //loader.load(new URLRequest("assets/basic_mw_tests/shapes_mw_MA_GBR_0575RAx0200.swf"), null, null, new SWFParser(this._avm1SceneGraphFactory));
+        //loader.load(new URLRequest("assets/basic_scripting/04_loops.swf"), null, null, new SWFParser(this._avm1SceneGraphFactory));
+        //loader.load(new URLRequest("assets/basic_scripting/16_movieClip_playbackcontrol.swf"), null, null, new SWFParser(this._avm1SceneGraphFactory));
 
         //set resize listener
         window.onresize = (event) => this.onResize(event);
